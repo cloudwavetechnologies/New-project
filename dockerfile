@@ -13,6 +13,7 @@ COPY package*.json ./
 
 # Install dependencies
 RUN npm ci
+# added new filegit a
 
 # Add the rest of the source
 COPY . .
